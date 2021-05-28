@@ -49,7 +49,7 @@ if image is not None:
         }
     )
 
-    st.image(image, caption=f'Hasilnya adalah : {decoder(y_pred)}')
+    st.image(image, width=250, caption=f'Hasilnya adalah : {decoder(y_pred)}')
     prob_table
 
 st.sidebar.write('Catatan untuk mendapatkan prediksi yang diinginkan')
